@@ -1,0 +1,26 @@
+{
+  "name": "TSsortAlgorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manjado/TSsortAlgorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manjado/TSsortAlgorithm/issues"
+  },
+  "homepage": "https://github.com/Manjado/TSsortAlgorithm#readme",
+  "dependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.3"
+  }
+}
